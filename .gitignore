@@ -153,3 +153,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+*.bat
+*.exe
+todo
+yarn.lock
