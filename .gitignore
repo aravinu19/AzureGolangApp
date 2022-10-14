@@ -1,6 +1,7 @@
 node_modules
-.bat
-.sh
+*.bat
+*.sh
+*.ps1
 # If you prefer the allow list template instead of the deny list, see community template:
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
@@ -66,6 +67,9 @@ build/Release
 # Dependency directories
 webui/node_modules/
 jspm_packages/
+
+# Ignore build
+webui/build/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -158,3 +162,4 @@ dist
 *.exe
 todo
 yarn.lock
+
